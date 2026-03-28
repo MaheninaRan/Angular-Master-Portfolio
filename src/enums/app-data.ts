@@ -485,7 +485,7 @@ export const AppConfig = {
     emailId: "thedhruvilrathod@gmail.com",  // your email id
 
     // Google Form Contact Link
-    googleFormContactLink: "https://docs.google.com/forms/d/e/1FAIpQLSfMOsQhl_Lci5s_qrYN-LEWlJ3NoBag-Uyf17IGktExA5KDpw/viewform?usp=header",
+    googleFormContactLink: "https://docs.google.com/forms/d/e/1FAIpQLSdLL8txhuCh8_On7-QAysulM7O7bagAOLcT-TrjX96Vj9FIeg/viewform?usp=publish-editor",
 
     // Home page
     professionalTitle: "Développeurs Freelance",
