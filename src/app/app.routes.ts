@@ -19,11 +19,6 @@ export const routes: Routes = [
         title: `Projects | Dhruvil's Portfolio`,
     },
     {
-        path: AppRoutes.EXPERIENCE,
-        component: ExperienceComponent,
-        title: `Experience | Dhruvil's Portfolio`,
-    },
-    {
         path: AppRoutes.EDUCATION,
         component: EducationComponent,
         title: `Education | Dhruvil's Portfolio`,
