@@ -19,26 +19,11 @@ export const RoutesData: RouteData[] = [
         isVisible: true,
     },
     {
-        routeLinkText: "Projects",
-        routeURLName: AppRoutes.PROJECTS,
-        isVisible: true,
-    },
-    {
-        routeLinkText: "Experience",
-        routeURLName: AppRoutes.EXPERIENCE,
-        isVisible: true,
-    },
-    {
-        routeLinkText: "Education",
+        routeLinkText: "Technologie",
         routeURLName: AppRoutes.EDUCATION,
         isVisible: true,
     },
-    {
-        routeLinkText: "Achievements",
-        routeURLName: AppRoutes.ACHIEVEMENTS,
-        isVisible: true,
-    },
-    {
+   {
         routeLinkText: "Contact",
         routeURLName: AppRoutes.CONTACT,
         isVisible: true,
