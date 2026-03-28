@@ -477,23 +477,6 @@ const BachelorsDegree: EducationSection = {
     ]
 }
 
-const MastersDegree: EducationSection = {
-    degreeName: "Master of Information Technology",
-    majorName: "Cyber Security",
-    duration: "Feb 2024 - Dec 2025",
-    universityName: "University of South Australia (UniSA)",
-    campusName: "Mawson Lakes",
-    logoImagePath: AssetPaths.EDUCATION_UNISA_LOGO,
-    gpa: "6.7 / 7.0",
-    websiteLink: "https://i.unisa.edu.au/students/",
-    studyPoints: [
-        "Built expertise in Security Principles, Network Infrastructure, and Risk Management, laying a solid foundation in cybersecurity fundamentals. 🔐",
-        "Gained deep knowledge in Security Architecture, Network Security, and Critical Infrastructure Protection, alongside insights into Cyber Criminal Behavior and Australian Cyber Law. ⚙️🛡️",
-        "Developed strategic skills through Consultancy, Enterprise Security, and hands-on labs experience with tech-giants including Cisco and FortiGate. 🚀",
-    ]
-}
-
-
 
 export const AppConfig = {
     loaderSplashAnimation: true,        // enable or disable splash screen at the initialization of website
@@ -533,11 +516,9 @@ export const AppConfig = {
     ],
 
     // Education page
-    educationPageTitle: "Degrees and Qualifications",
-    educationPageDescription: "🎓 A Journey of Continuous Learning: Building Skills, Solving Problems, and Shaping the Future 🌟",
+    educationPageTitle: "Technologie",
+    educationPageDescription: "💻 Les outils et technologies que nous maîtrisons pour créer des solutions innovantes pour le web et les applications",
     educationSections: [
-        MastersDegree,
-        BachelorsDegree,
     ],
 
 
