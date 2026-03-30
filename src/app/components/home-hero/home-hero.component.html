@@ -1,0 +1,39 @@
+﻿<section class="hero-section" id="greeting">
+    <div class="hero-surface">
+        <div class="hero-copy" data-aos="fade-right">
+            <p class="hero-kicker">Équipe digitale à Madagascar</p>
+            <h1 class="hero-title">
+                Nous concevons des sites web et applications sur mesure pour faire grandir votre entreprise.
+            </h1>
+            <p class="hero-subtitle">
+                {{ appConfig.name }} accompagne les entreprises avec une équipe de 4 profils complémentaires en
+                développement fullstack, intégration de bases de données et mise en production.
+            </p>
+
+            <div class="hero-actions">
+                <a class="hero-primary-btn" [href]="appRoutes.CONTACT" target="_blank" rel="noopener noreferrer">
+                    Demander un devis
+                </a>
+                <!-- <a class="hero-secondary-btn" href="/projects">
+                    Voir nos réalisations
+                </a> -->
+            </div>
+
+            <div class="hero-social">
+                <app-social-media-links></app-social-media-links>
+            </div>
+        </div>
+
+        <div class="hero-visual" data-aos="fade-left">
+            <div class="hero-visual-card">
+                <div class="hero-badge">Disponible pour de nouveaux projets</div>
+                <img [src]="assetPaths.FEELING_PROUD_SVG" alt="Équipe Dev Professionnel">
+
+                <div class="hero-mini-panel">
+                    <p class="hero-mini-label">Positionnement</p>
+                    <p class="hero-mini-text">Sites vitrines, applications métier, maintenance et hébergement.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

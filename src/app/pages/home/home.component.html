@@ -4,40 +4,15 @@
 
 @else {
 
-    <div class="greet-main" id="greeting">
-        <div class="greeting-main">
+    <app-home-hero></app-home-hero>
 
-            <div class="greeting-text-div" data-aos="fade-right">
-                <div>
-                    <h1 class="greeting-text">
-                        {{ appConfig.name }}
-                    </h1>
-                    <br>
-                    <h2 class="greeting-nickname">
-                        ( {{ appConfig.professionalTitle }} )
-                    </h2>
-                    <br>
-                    <p class="greeting-text-p subTitle">
-                        {{ appConfig.professionalSummary }}
-                    </p>
-
-                    <br>
-
-                    <app-social-media-links></app-social-media-links>
-
-
-                </div>
-            </div>
-
-            <div class="greeting-image-div" data-aos="fade-left">
-                <img [src]="assetPaths.FEELING_PROUD_SVG" alt="Dhruvil Coding">
-            </div>
-        </div>
-    </div>
+    <app-home-business-sections></app-home-business-sections>
 
     <div class="greet-main">
         <app-about-me></app-about-me>
     </div>
 
     <app-team-member></app-team-member>
+
+    <app-home-final-cta></app-home-final-cta>
 }

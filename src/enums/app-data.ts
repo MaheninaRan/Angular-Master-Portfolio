@@ -1,4 +1,4 @@
-import { EducationSection } from "../interfaces/education.interface";
+﻿import { EducationSection } from "../interfaces/education.interface";
 import { ExternalSite } from "../interfaces/external-site.interface"
 import { ProjectSection } from "../interfaces/project.interface";
 import { SkillSection } from "../interfaces/skill-section.interface";
@@ -76,7 +76,7 @@ const FullstackSection: SkillSection = {
         "Composée de 4 développeurs expérimentés",
         "Parcours professionnel chez ITUniversity",
         "Nous venons de différentes entreprises à Madagascar avec des postes variés dans le développement",
-        "Deux développeurs front-end et conception d’API REST, un développeur spécialisé en intégration de bases de données, un hébergeur web",
+        "Deux développeurs frontend et conception d'API REST, un développeur spécialisé en intégration de bases de données, un hébergeur web",
     ]
 }
 
@@ -102,11 +102,11 @@ const CloudSection: SkillSection = {
         "&nbsp;&nbsp;• Personnalisation des applications existantes, modifications des ERP",
         "<strong>Création de sites web</strong>",
         "&nbsp;&nbsp;• Site web vitrine, utilisant toutes les technologies demandées",
-        "&nbsp;&nbsp;• Site web dynamique, dont le contenu change en fonction des données, comme les sites d’annonces",
+        "&nbsp;&nbsp;• Site web dynamique, dont le contenu change en fonction des données, comme les sites d'annonces",
         "&nbsp;&nbsp;• Site web de vente, e-commerce et boutique en ligne",
         "<strong>Maintenance & Hébergement</strong>",
         "&nbsp;&nbsp;• Création de noms de domaine selon la demande du client",
-        "&nbsp;&nbsp;• Configuration d’e-mails professionnels avec le nom de domaine",
+        "&nbsp;&nbsp;• Configuration d'e-mails professionnels avec le nom de domaine",
         "&nbsp;&nbsp;• Hébergement web sécurisé",
         "&nbsp;&nbsp;• Mises à jour et support technique",
     ]
@@ -143,14 +143,14 @@ const DesignSkills: ExternalSite[] = [
 // Personal projects
 const PersonalProjects: ProjectSection = {
     sectionTitle: "My Projects",
-    sectionSubtitle: "🚀 Showcasing innovative solutions and real-world applications built with cutting-edge technologies.",
+    sectionSubtitle: "ðŸš€ Showcasing innovative solutions and real-world applications built with cutting-edge technologies.",
     entities: [
         {
             title: "Web-Based 3D IFC File Viewer",
             coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
             liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
             githubLink: "https://github.com/dhruvilrathod/three_ifc_angular",
-            description: "🧱 This tool enables seamless visualization of IFC files in your browser. Toggle elements, explore real-time details by hovering, search and highlight elements, and interact with ease for a dynamic 3D experience.",
+            description: "ðŸ§± This tool enables seamless visualization of IFC files in your browser. Toggle elements, explore real-time details by hovering, search and highlight elements, and interact with ease for a dynamic 3D experience.",
             techStack: ["Angular", "ThreeJS", "ExpressJS", "Heroku"],
             year: 2022
         },
@@ -158,7 +158,7 @@ const PersonalProjects: ProjectSection = {
             title: "Customizable Multi-Select Dropdown",
             coverImagePath: AssetPaths.PROJECT_CUSTOM_DROPDOWN,
             githubLink: "https://github.com/dhruvilrathod/custom-dropdown/tree/resource-tree-utility",
-            description: "🌲 An Angular-based, asynchronous multi-select dropdown designed for tree-structured data with custom validation. It's a powerful replacement for jQuery's Select2.",
+            description: "ðŸŒ² An Angular-based, asynchronous multi-select dropdown designed for tree-structured data with custom validation. It's a powerful replacement for jQuery's Select2.",
             techStack: ["Angular", "TypeScript", "SCSS"],
             year: 2023,
             branch: "resource-tree-utility"
@@ -167,7 +167,7 @@ const PersonalProjects: ProjectSection = {
             title: "Learning Management System",
             coverImagePath: AssetPaths.PROJECT_LMS_APP,
             githubLink: "https://github.com/dhruvilrathod/lms-asite",
-            description: "📚 A production-grade frontend for a Learning Management System, designed with scalability in mind to deliver a seamless and efficient user experience.",
+            description: "ðŸ“š A production-grade frontend for a Learning Management System, designed with scalability in mind to deliver a seamless and efficient user experience.",
             techStack: ["Angular", "PrimeNG", "Tailwind", "Figma"],
             year: 2023
         },
@@ -175,7 +175,7 @@ const PersonalProjects: ProjectSection = {
             title: "Angular + NestJS Boilerplate",
             coverImagePath: AssetPaths.PROJECT_ANGULAR_NEST_DOCKER,
             githubLink: "https://github.com/dhruvilrathod/sample-angular-nest",
-            description: "🛠️ A production-grade boilerplate integrating Angular, NestJS, and Nginx for seamless fullstack development. Perfect for kickstarting robust and scalable web applications.",
+            description: "ðŸ› ï¸ A production-grade boilerplate integrating Angular, NestJS, and Nginx for seamless fullstack development. Perfect for kickstarting robust and scalable web applications.",
             techStack: ["Angular", "NestJS", "NgINX", "Docker"],
             year: 2023
         },
@@ -183,7 +183,7 @@ const PersonalProjects: ProjectSection = {
             title: "Hospital Management System Dashboard",
             coverImagePath: AssetPaths.PROJECT_HMS_APP,
             githubLink: "https://github.com/freelancer-dhruvil/hms-demo",
-            description: "🏥 Transformed Figma designs into a fully functional, user-friendly dashboard for a Hospital Management System, ensuring precision and intuitive interface.",
+            description: "ðŸ¥ Transformed Figma designs into a fully functional, user-friendly dashboard for a Hospital Management System, ensuring precision and intuitive interface.",
             techStack: ["Angular", "PrimeNG", "PrimeFlex", "Figma"],
             year: 2024
         },
@@ -191,7 +191,7 @@ const PersonalProjects: ProjectSection = {
             title: "Cross-Platform Music Player",
             coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
             githubLink: "https://github.com/dhruvilrathod/music_player",
-            description: "🎵 Developed with Angular and NestJS, this music player evolved into a fullstack app and was wrapped with ElectronJS for a seamless desktop experience.",
+            description: "ðŸŽµ Developed with Angular and NestJS, this music player evolved into a fullstack app and was wrapped with ElectronJS for a seamless desktop experience.",
             techStack: ["Angular", "NestJS", "ElectronJS", "ExpressJS"],
             year: 2023
         }
@@ -201,13 +201,13 @@ const PersonalProjects: ProjectSection = {
 // Freelancing projects
 const FreelancingProjects: ProjectSection = {
     sectionTitle: "Freelance",
-    sectionSubtitle: "🚀 Transformer les idées en solutions numériques : sites web sur mesure, systèmes de gestion de contenu personnalisés et bien plus encore!",
+    sectionSubtitle: "Transformer les idées en solutions numériques : sites web sur mesure, systèmes de gestion de contenu personnalisés et bien plus encore !",
     entities: [
         {
             title: "South Australia Tiling",
             coverImagePath: AssetPaths.PROJECT_SA_TILING,
             liveLink: "https://southaustraliatiling.com.au/",
-            description: "🚀 Built with SSR and SSG to showcase a South Australian tiling and bathroom renovation business, enhancing their online presence and visibility.",
+            description: "ðŸš€ Built with SSR and SSG to showcase a South Australian tiling and bathroom renovation business, enhancing their online presence and visibility.",
             techStack: ["Angular 19", "SSR/SSG", "NestJS", "Firebase"],
             year: 2025
         },
@@ -215,7 +215,7 @@ const FreelancingProjects: ProjectSection = {
             title: "Kiwi Finance",
             coverImagePath: AssetPaths.PROJECT_KIWI_FINANCE,
             liveLink: "https://kiwifinance.com.au/",
-            description: "💰 Developed a tailored website for a new Perth-based finance and mortgage broking business, combining modern design with a focus on accessibility and client engagement.",
+            description: "ðŸ’° Developed a tailored website for a new Perth-based finance and mortgage broking business, combining modern design with a focus on accessibility and client engagement.",
             techStack: ["Angular", "MongoDB", "NestJS", "Firebase"],
             year: 2025
         },
@@ -223,7 +223,7 @@ const FreelancingProjects: ProjectSection = {
             title: "RAS Finance Website + CMS",
             coverImagePath: AssetPaths.PROJECT_RAS_FINANCE,
             liveLink: "https://rasfinance.com.au/",
-            description: "📈 Designed a bespoke website for a leading South Australia-based finance and mortgage broking business, showcasing services with a sleek, client-focused design.",
+            description: "ðŸ“ˆ Designed a bespoke website for a leading South Australia-based finance and mortgage broking business, showcasing services with a sleek, client-focused design.",
             techStack: ["Angular", "MongoDB", "NestJS", "Firebase"],
             year: 2024
         },
@@ -231,7 +231,7 @@ const FreelancingProjects: ProjectSection = {
             title: "Acquire Conveyancing Website",
             coverImagePath: AssetPaths.PROJECT_ACQUIRE_CONVEYANCING,
             liveLink: "https://acquireconveyancing.com.au/",
-            description: "🏡 Crafted a tailored website for a South Australia-based conveyancing business, delivering a professional online presence with user-friendly design and local appeal.",
+            description: "ðŸ¡ Crafted a tailored website for a South Australia-based conveyancing business, delivering a professional online presence with user-friendly design and local appeal.",
             techStack: ["Angular", "Tailwind", "Firebase"],
             year: 2023
         },
@@ -255,10 +255,10 @@ const JobExperience: ExperienceSection = {
                     locationType: "On-Site",
                     jobType: "Part-time",
                     workPoints: [
-                        "Ensured secure management of sensitive data with top-notch IT support. 🔒",
-                        "Streamlined property searches by liaising with government agencies. 🏡",
-                        "Prepared legal documents like Cooling Off Forms, Nominations, and Addendums. 📝",
-                        "Optimized software workflows with precise data entry and customized templates in CATS and PEXA. ⚙️",
+                        "Ensured secure management of sensitive data with top-notch IT support. ðŸ”’",
+                        "Streamlined property searches by liaising with government agencies. ðŸ¡",
+                        "Prepared legal documents like Cooling Off Forms, Nominations, and Addendums. ðŸ“",
+                        "Optimized software workflows with precise data entry and customized templates in CATS and PEXA. âš™ï¸",
                     ]
                 }
             ]
@@ -275,9 +275,9 @@ const JobExperience: ExperienceSection = {
                     locationType: "Hybrid",
                     jobType: "Full-time",
                     workPoints: [
-                        "Built the Issue Tracker feature for the cBIM unit, integrating 30+ Angular components like side pane, image carousel, and quill editor. 🚀📋",
-                        "Designed a robust Angular reactive form and a customizable async dropdown for efficient file-folder tree searches, enhancing Record Retention Policy. 📂🔍",
-                        "Debugged and unit-tested code using Karma & Jasmine, achieving an impressive 96% coverage. 🐞✅",
+                        "Built the Issue Tracker feature for the cBIM unit, integrating 30+ Angular components like side pane, image carousel, and quill editor. ðŸš€ðŸ“‹",
+                        "Designed a robust Angular reactive form and a customizable async dropdown for efficient file-folder tree searches, enhancing Record Retention Policy. ðŸ“‚ðŸ”",
+                        "Debugged and unit-tested code using Karma & Jasmine, achieving an impressive 96% coverage. ðŸžâœ…",
                     ]
                 }
             ]
@@ -301,8 +301,8 @@ const FreelancingExperience: ExperienceSection = {
                     locationType: "Remote",
                     jobType: "Contract",
                     workPoints: [
-                        "Designed and developed a visually appealing website to highlight the high-quality work of a South Australian tiling and bathroom renovation business, improving their online presence.📊",
-                        "Utilized Server-Side Rendering (SSR) and Static Site Generation (SSG) to enhance search engine visibility and drive organic traffic to the website. 🚀",
+                        "Designed and developed a visually appealing website to highlight the high-quality work of a South Australian tiling and bathroom renovation business, improving their online presence.ðŸ“Š",
+                        "Utilized Server-Side Rendering (SSR) and Static Site Generation (SSG) to enhance search engine visibility and drive organic traffic to the website. ðŸš€",
                     ]
                 }
             ]
@@ -319,8 +319,8 @@ const FreelancingExperience: ExperienceSection = {
                     locationType: "Remote",
                     jobType: "Contract",
                     workPoints: [
-                        "Designed and developed an SEO-friendly website with financial calculators, and a custom contact form tailored to Astute Financial's requirements. 🌐📊",
-                        "Streamlined data collection and client inquiries by integrating the contact form with Google Sheets and Gmail. 📋",
+                        "Designed and developed an SEO-friendly website with financial calculators, and a custom contact form tailored to Astute Financial's requirements. ðŸŒðŸ“Š",
+                        "Streamlined data collection and client inquiries by integrating the contact form with Google Sheets and Gmail. ðŸ“‹",
                     ]
                 }
             ]
@@ -337,8 +337,8 @@ const FreelancingExperience: ExperienceSection = {
                     locationType: "Hybrid",
                     jobType: "Contract",
                     workPoints: [
-                        "Built a dynamic website featuring financial calculators, a CMS for articles, and a sleek contact form. 📊📝",
-                        "Streamlined client inquiries by integrating the contact form with Google Sheets and Gmail. 📧📋✨",
+                        "Built a dynamic website featuring financial calculators, a CMS for articles, and a sleek contact form. ðŸ“ŠðŸ“",
+                        "Streamlined client inquiries by integrating the contact form with Google Sheets and Gmail. ðŸ“§ðŸ“‹âœ¨",
                     ]
                 }
             ]
@@ -355,9 +355,9 @@ const FreelancingExperience: ExperienceSection = {
                     locationType: "Remote",
                     jobType: "Contract",
                     workPoints: [
-                        "Crafted a professional logo, business cards, and responsive website using Illustrator. 🎨💼",
-                        "Set up a custom domain email and Office 365 with SharePoint for seamless operations. 📧🔗",
-                        "Developed and hosted an SEO-friendly website with a contact form to boost online presence. 🌐📈",
+                        "Crafted a professional logo, business cards, and responsive website using Illustrator. ðŸŽ¨ðŸ’¼",
+                        "Set up a custom domain email and Office 365 with SharePoint for seamless operations. ðŸ“§ðŸ”—",
+                        "Developed and hosted an SEO-friendly website with a contact form to boost online presence. ðŸŒðŸ“ˆ",
                     ]
                 }
             ]
@@ -381,19 +381,19 @@ const InternshipExperience: ExperienceSection = {
                     locationType: "Hybrid",
                     jobType: "Full-time",
                     workPoints: [
-                        "Led an 11-member team to design and implement the frontend architecture of an LMS using Angular, following the latest methodologies and best practices. 🚀💻",
-                        "Gained expertise in Angular, jQuery, SCSS, and DSA through personalized training and hands-on assignments during the internship. 🌟📊✨",
+                        "Led an 11-member team to design and implement the frontend architecture of an LMS using Angular, following the latest methodologies and best practices. ðŸš€ðŸ’»",
+                        "Gained expertise in Angular, jQuery, SCSS, and DSA through personalized training and hands-on assignments during the internship. ðŸŒŸðŸ“Šâœ¨",
                     ]
                 },
                 {
                     positionName: "Software Engineering Intern",
-                    duration: "Jun 2022 — Jul 2022",
+                    duration: "Jun 2022 â€” Jul 2022",
                     location: "Ahmedabad, India",
                     locationType: "On-Site",
                     jobType: "Full-time",
                     workPoints: [
-                        "Developed an innovative 3D IFC file viewer using Three.js, applying DSA concepts to create a tree-like structure for exploring model internals. 🌐🌳📐",
-                        "Deployed the Node.js backend on Heroku and hosted the frontend on GitHub Pages for seamless accessibility. 🚀💻✨",
+                        "Developed an innovative 3D IFC file viewer using Three.js, applying DSA concepts to create a tree-like structure for exploring model internals. ðŸŒðŸŒ³ðŸ“",
+                        "Deployed the Node.js backend on Heroku and hosted the frontend on GitHub Pages for seamless accessibility. ðŸš€ðŸ’»âœ¨",
                     ]
                 }
             ]
@@ -405,14 +405,14 @@ const InternshipExperience: ExperienceSection = {
             positions: [
                 {
                     positionName: "Angular Developer Internship",
-                    duration: "Feb 2022 — Mar 2022",
+                    duration: "Feb 2022 â€” Mar 2022",
                     location: "Noida, India",
                     locationType: "Remote",
                     jobType: "Part-time",
                     workPoints: [
-                        "Designed and implemented an optimized, cross-browser-compatible Attendance Management Module. 🌐✔️",
-                        "Built a RESTful Node.js server integrated with Oracle DB for seamless code migration. 🚀📊",
-                        "Developed intuitive web forms with robust validation and error handling for a smooth user experience. 🖋️⚙️✨",
+                        "Designed and implemented an optimized, cross-browser-compatible Attendance Management Module. ðŸŒâœ”ï¸",
+                        "Built a RESTful Node.js server integrated with Oracle DB for seamless code migration. ðŸš€ðŸ“Š",
+                        "Developed intuitive web forms with robust validation and error handling for a smooth user experience. ðŸ–‹ï¸âš™ï¸âœ¨",
                     ]
                 }
             ]
@@ -429,7 +429,7 @@ const CommunityInvolvement: ProjectSection = {
             coverImagePath: AssetPaths.ACHIEVEMENT_AOC_PIC,
             techStack: ["Python"],
             title: "Advent of Code 2024",
-            description: "📅 Completed all Advent of Code 2024 problems within a personal deadline of 1 day each, showcasing strong DSA and problem-solving skills.🎯",
+            description: "ðŸ“… Completed all Advent of Code 2024 problems within a personal deadline of 1 day each, showcasing strong DSA and problem-solving skills.ðŸŽ¯",
             year: 2024,
             githubLink: "https://github.com/dhruvilrathod/RSP/tree/master/advent_of_code",
         },
@@ -445,7 +445,7 @@ const AchievementInvolvement: ProjectSection = {
             coverImagePath: AssetPaths.ACHIEVEMENT_CPC_RSP_WIN_PIC,
             techStack: ["C++", "Python"],
             title: "CPC X RSP 2025",
-            description: "🏆 Secured 3rd place in a high-stakes coding competition, tackling complex algorithms under pressure! Grateful for an incredible team and experience at CPC X RSP competition.",
+            description: "ðŸ† Secured 3rd place in a high-stakes coding competition, tackling complex algorithms under pressure! Grateful for an incredible team and experience at CPC X RSP competition.",
             year: 2025,
         },
         {
@@ -454,7 +454,7 @@ const AchievementInvolvement: ProjectSection = {
             // liveLink: "public/unisa-chancellors-letter-of-commandation-2024.html",
             techStack: ["Cisco", "FortiGate", "ISO 270001"],
             title: "Chancellor's Commendation Letter (2024)",
-            description: "🚀 Awarded for academic excellence with a cumulative program GPA in the TOP 5% of all students, and invited to join the Golden Key International Honour Society.",
+            description: "ðŸš€ Awarded for academic excellence with a cumulative program GPA in the TOP 5% of all students, and invited to join the Golden Key International Honour Society.",
             year: 2024,
         },
     ]
@@ -471,9 +471,9 @@ const BachelorsDegree: EducationSection = {
     gpa: "6.9 / 7.0",
     websiteLink: "https://www.gtu.ac.in/",
     studyPoints: [
-        "Studied foundational subjects like Data Structures, Database Management Systems, Discrete Mathematics, and Operating Systems, building a strong base in computer science. 🧠💻",
-        "Explored Object-Oriented Programming, Software Engineering, Computer Networks, and Microprocessor & Interfacing, bridging software development with hardware understanding. ⚙️",
-        "Gained insights into Big Data Analytics, Artificial Intelligence, Data Mining, and Data Visualization, equipping skills for modern computing challenges. 🚀📊",
+        "Studied foundational subjects like Data Structures, Database Management Systems, Discrete Mathematics, and Operating Systems, building a strong base in computer science. ðŸ§ ðŸ’»",
+        "Explored Object-Oriented Programming, Software Engineering, Computer Networks, and Microprocessor & Interfacing, bridging software development with hardware understanding. âš™ï¸",
+        "Gained insights into Big Data Analytics, Artificial Intelligence, Data Mining, and Data Visualization, equipping skills for modern computing challenges. ðŸš€ðŸ“Š",
     ]
 }
 
@@ -488,8 +488,8 @@ export const AppConfig = {
     googleFormContactLink: "https://docs.google.com/forms/d/e/1FAIpQLSdLL8txhuCh8_On7-QAysulM7O7bagAOLcT-TrjX96Vj9FIeg/viewform?usp=publish-editor",
 
     // Home page
-    professionalTitle: "Développeurs Freelance",
-    professionalSummary: "Forte expérience dans le développement full-stack, la conception d’API REST, la gestion de bases de données relationnelles et NoSQL, et le déploiement en production.",
+    professionalTitle: "Développeurs freelance",
+    professionalSummary: "Forte expérience dans le développement full-stack, la conception d'API REST, la gestion de bases de données relationnelles et NoSQL, et le déploiement en production.",
     githubProfile: "https://github.com/dhruvilrathod",              // Your github profile link
     portfolioRepository: "https://github.com/dhruvilrathod/Angular-Master-Portfolio",        // Your portfolio repository link
     socialMedia: SocialMediaLinks,      // use from above
@@ -507,7 +507,7 @@ export const AppConfig = {
 
     // Experience page
     experiencePageTitle: "My Works, Internships and Freelancing",
-    experiencePageDescription: "💼 From Corporate Giants to Creative Freelance Projects: A journey through internships, corporate, and helping local businesses.",
+    experiencePageDescription: "ðŸ’¼ From Corporate Giants to Creative Freelance Projects: A journey through internships, corporate, and helping local businesses.",
     experienceSections: [               // Define and add a custom section if needed
         JobExperience,
         InternshipExperience,
@@ -516,16 +516,18 @@ export const AppConfig = {
 
     // Education page
     educationPageTitle: "Technologie",
-    educationPageDescription: "💻 Les outils et technologies que nous maîtrisons pour créer des solutions innovantes pour le web et les applications",
+    educationPageDescription: "Les outils et technologies que nous maîtrisons pour créer des solutions innovantes pour le web et les applications",
     educationSections: [
     ],
 
 
     // Achievements Page
     achievementsPageTitle: "Achievements, Participation and Community Involvement",
-    achievementsPageDescription: "🚀 Milestones, Contributions & Impact: Driving Innovation, Engaging Communities, and Making a Difference 🌍",
+    achievementsPageDescription: "ðŸš€ Milestones, Contributions & Impact: Driving Innovation, Engaging Communities, and Making a Difference ðŸŒ",
     achievementsSections: [
         AchievementInvolvement,
         CommunityInvolvement,
     ],
 }
+
+
