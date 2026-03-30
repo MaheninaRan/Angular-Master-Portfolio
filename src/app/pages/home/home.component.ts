@@ -6,6 +6,7 @@ import { AssetPaths } from '../../../enums/asset-paths.enum';
 import { SocialMediaLinksComponent } from '../../components/social-media-links/social-media-links.component';
 import { AboutMeComponent } from '../../components/about-me/about-me.component';
 import { AppRoutes } from '../../../enums/routes-data.enum';
+import { TeamMemberComponent } from '../../components/team-member/team-member.component';
 
 @Component({
     selector: 'app-home',
@@ -13,7 +14,8 @@ import { AppRoutes } from '../../../enums/routes-data.enum';
     imports: [
         SplashComponent,
         SocialMediaLinksComponent,
-        AboutMeComponent
+        AboutMeComponent,
+        TeamMemberComponent
     ],
     templateUrl: './home.component.html',
     styleUrl: './home.component.scss'

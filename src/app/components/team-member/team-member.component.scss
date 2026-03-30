@@ -1,0 +1,67 @@
+@import "../../../css/variables.scss";
+
+
+.skills-header {
+    color: $theme-blue;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: normal;
+    font-family: "Google Sans Regular";
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.team-section {
+    width: 90%;
+    margin: 4rem auto;
+}
+
+.team-section-header {
+    max-width: 48rem;
+    margin: 0 auto 2.5rem;
+    text-align: center;
+}
+
+.team-section-eyebrow {
+    margin: 0 0 0.8rem;
+    color: $theme-secondary;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18rem;
+    font-family: "Google Sans Medium";
+}
+
+.team-section-description {
+    margin: 0;
+    color: $theme-secondary;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    font-family: "Google Sans Medium";
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+@media (max-width: 1380px) {
+    .team-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .team-section {
+        width: 100%;
+    }
+
+    .team-section-description {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}

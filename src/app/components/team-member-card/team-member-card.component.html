@@ -1,0 +1,13 @@
+<article class="team-member-card" data-aos="fade-up">
+    <div class="member-photo-wrapper">
+        <img
+            class="member-photo"
+            [src]="imageSrc()"
+            [alt]="firstName() + ' ' + lastName()">
+    </div>
+
+    <div class="member-details">
+        <h3 class="member-name">{{ firstName() }} {{ lastName() }}</h3>
+        <p class="member-role">{{ role() }}</p>
+    </div>
+</article>

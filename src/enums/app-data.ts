@@ -10,13 +10,13 @@ const SocialMediaLinks: ExternalSite[] = [
     {
         name: "LinkedIn",
         link: "https://www.linkedin.com/in/rado-mahenina-randrianjanahary-049a01331/?skipRedirect=true",
-        simpleIconName: "LinkedIn", // this icon is not available in simple icon v14
+        simpleIconName: "linkedin",
         backgroundColor: "#0066c8", // manually checked
     },
     {
         name: "Gmail",
         link: "https://mail.google.com/mail/?view=cm&to=radomaheninarandrianjanahary@gmail.com",
-        simpleIconName: "Gmail",
+        simpleIconName: "gmail",
         backgroundColor: "#EA4335",
     },
     {
@@ -32,7 +32,7 @@ const FullstackSkills: ExternalSite[] = [
     {
         name: "Angular",
         link: "",
-        simpleIconName: "Angular",
+        simpleIconName: "angular",
         backgroundColor: "#ea2848",
     },
     {
@@ -62,7 +62,7 @@ const FullstackSkills: ExternalSite[] = [
     {
         name: "Postgresql",
         link: "",
-        simpleIconName: "Postgresql",
+        simpleIconName: "postgresql",
         backgroundColor: "#ffffff",
     },
 ];
@@ -200,8 +200,8 @@ const PersonalProjects: ProjectSection = {
 
 // Freelancing projects
 const FreelancingProjects: ProjectSection = {
-    sectionTitle: "Freelancing",
-    sectionSubtitle: "🚀 Transforming Ideas into Digital Solutions: Tailored Websites, Custom CMS, and More!",
+    sectionTitle: "Freelance",
+    sectionSubtitle: "🚀 Transformer les idées en solutions numériques : sites web sur mesure, systèmes de gestion de contenu personnalisés et bien plus encore!",
     entities: [
         {
             title: "South Australia Tiling",
@@ -482,7 +482,7 @@ export const AppConfig = {
     loaderSplashAnimation: true,        // enable or disable splash screen at the initialization of website
     logoName: "Dev-Professionnel",         // Signature font logo name in header
     name: "Dev-Professionnel",             // your name
-    emailId: "thedhruvilrathod@gmail.com",  // your email id
+    emailId: "radomaheninarandrianjanahary@gmail.com",  // your email id
 
     // Google Form Contact Link
     googleFormContactLink: "https://docs.google.com/forms/d/e/1FAIpQLSdLL8txhuCh8_On7-QAysulM7O7bagAOLcT-TrjX96Vj9FIeg/viewform?usp=publish-editor",
@@ -499,11 +499,10 @@ export const AppConfig = {
     ],
 
     // Projects page
-    projectsPageTitle: "Projects & Freelancing",    // Title of projects page
-    projectsPageDescription: "My projects leverage a diverse range of cutting-edge technology tools. I specialize in building data science solutions and seamlessly deploying them as web applications using robust cloud infrastructure.",
+    projectsPageTitle: "Missions & Réalisations",    // Title of projects page
+    projectsPageDescription: "Nos projets mobilisent un large éventail d'outils technologiques de pointe. À quatre, nous concevons des solutions data science et les déployons de façon fluide sous forme d'applications web, en nous appuyant sur une infrastructure cloud robuste.",
     projectSections: [                  // Define and add a custom section if needed
         FreelancingProjects,
-        PersonalProjects,
     ],
 
     // Experience page

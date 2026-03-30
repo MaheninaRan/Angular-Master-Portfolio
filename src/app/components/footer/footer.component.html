@@ -1,7 +1,49 @@
-<div class="footer-div" data-aos="fade-in" data-aos-anchor-placement="bottom-bottom">
-    <p class="footer-text">
-        <a [href]="'mailto:' + appConfig.emailId" rel="noopener noreferrer">
-            {{ appConfig.name }}
-        </a>
-    </p>
-</div>
+<footer class="footer" data-aos="fade-in" data-aos-anchor-placement="bottom-bottom">
+    <div class="footer-shell">
+        <div class="footer-main">
+            <section class="footer-brand">
+                <h2 class="footer-brand-name">{{ appConfig.name }}</h2>
+                <p class="footer-brand-text">
+                    Equipe de 4 professionnels specialisee dans la creation de sites web, d'applications sur mesure
+                    et de solutions techniques fiables pour les entreprises.
+                </p>
+
+                <a class="footer-cta" [href]="appRoutes.CONTACT" target="_blank" rel="noopener noreferrer">
+                    Demander un devis
+                </a>
+            </section>
+
+            <section class="footer-links">
+                <h3 class="footer-title">Navigation</h3>
+                <nav class="footer-nav" aria-label="Liens du footer">
+                    <a href="/">Accueil</a>
+                    <a href="/technologie">Technologies</a>
+                    <a href="/projects">Projets</a>
+                    <a [href]="appRoutes.CONTACT" target="_blank" rel="noopener noreferrer">Contact</a>
+                </nav>
+            </section>
+
+            <section class="footer-contact">
+                <h3 class="footer-title">Contact</h3>
+                <div class="footer-contact-list">
+                    <a [href]="'mailto:' + appConfig.emailId">{{ appConfig.emailId }}</a>
+                    <a href="tel:+261342665876">+261 34 26 658 76</a>
+                    <p>Madagascar</p>
+                    <p>Reponse rapide pour vos nouveaux projets</p>
+                </div>
+            </section>
+
+            <section class="footer-social">
+                <h3 class="footer-title">Reseaux</h3>
+                <p class="footer-social-text">
+                    Retrouvez l'equipe et nos canaux de contact.
+                </p>
+                <app-social-media-links></app-social-media-links>
+            </section>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; {{ currentYear }} {{ appConfig.name }}.</p>
+        </div>
+    </div>
+</footer>

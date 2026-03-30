@@ -24,6 +24,11 @@ export const RoutesData: RouteData[] = [
         routeURLName: AppRoutes.TECHNOLOGIE,
         isVisible: true,
     },
+    // {
+    //   routeLinkText: "Projets",
+    //   routeURLName: AppRoutes.PROJECTS,
+    //   isVisible: true,
+    // },
    {
         routeLinkText: "Contact",
         routeURLName: AppRoutes.CONTACT,
