@@ -35,14 +35,14 @@ export class TeamMemberComponent {
         {
             firstName: 'Toky',
             lastName: 'RAHERIMANANA',
-            role: 'Développeur Fullstack',
+            role: 'Développeur Symfony / NodeJS / JAVA',
             imageSrc: 'https://media.licdn.com/dms/image/v2/D4E03AQH42LRjnxPb8A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718310767210?e=1776297600&v=beta&t=RS6We4j7yEmsUyGa-UNbLcfQeXGNPp6gRj4YjpvkoR4'
         },
         {
             firstName: 'Toky Jordy',
             lastName: 'RAKOTONIRINA',
-            role: 'Développeur Fullstack',
-            imageSrc: 'https://media.licdn.com/dms/image/v2/D4E03AQGwg_VAD_jyRg/profile-displayphoto-scale_200_200/B4EZsv8cAJIMAY-/0/1766035934030?e=1776297600&v=beta&t=AJtYses_QpGmGDDs3BNKs5oFLRYqkro1Pe3Zw2HzKUs'
+            role: 'Développeur Laravel / React / Angular',
+            imageSrc: 'assets/images/Jordy.png'
         }
     ];
 }
