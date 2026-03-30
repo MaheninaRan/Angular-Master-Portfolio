@@ -1,11 +1,11 @@
-<div class="my-24 mt-24 lg:mt-48">
+﻿<div class="my-24 mt-24 lg:mt-48">
 
     <div class="main" id="skills">
 
         <div class="skills-header-div my-8" data-aos="fade-up">
 
             <h1 class="skills-header">
-                Qui somme nous ? 
+                Qui sommes-nous ? 
             </h1>
         </div>
 
@@ -56,7 +56,7 @@
                     <div *ngFor="let sl of ab.skillsList">
                         <p class="subTitle skills-text" *ngIf="ab.sectionTitle === 'Nos services'; else normalItem" [innerHTML]="sl"></p>
                         <ng-template #normalItem>
-                            <p class="subTitle skills-text">▸ {{ sl }}</p>
+                            <p class="subTitle skills-text">â–¸ {{ sl }}</p>
                         </ng-template>
                         </div>
                     </div>
@@ -66,3 +66,4 @@
 
     </div>
 </div>
+

@@ -1,0 +1,30 @@
+﻿<section class="home-section stats-section" aria-label="Points forts">
+    <div class="stats-grid">
+        @for (stat of stats; track stat.label) {
+            <article class="stat-card" data-aos="fade-up">
+                <h2 class="stat-value">{{ stat.value }}</h2>
+                <p class="stat-label">{{ stat.label }}</p>
+            </article>
+        }
+    </div>
+</section>
+
+<section class="home-section trust-section">
+    <div class="section-intro" data-aos="fade-up">
+        <p class="section-kicker">Pourquoi nous choisir ?</p>
+        <h2 class="section-title">Une équipe technique qui parle aussi business</h2>
+        <p class="section-description">
+            Nous construisons des solutions utiles, lisibles et durables pour vous aider à inspirer confiance à vos
+            clients et à mieux piloter votre activité.
+        </p>
+    </div>
+
+    <div class="trust-grid">
+        @for (item of trustPoints; track item.title) {
+            <article class="trust-card" data-aos="fade-up">
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.description }}</p>
+            </article>
+        }
+    </div>
+</section>

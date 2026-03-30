@@ -1,0 +1,127 @@
+@import "../../../css/variables.scss";
+
+.home-section {
+    width: min(1400px, 92%);
+    margin: 0 auto;
+}
+
+.stats-section {
+    margin-top: 10rem;
+}
+
+.trust-section {
+    margin-top: 5rem;
+}
+
+.stats-grid,
+.trust-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.stats-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.trust-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.section-intro {
+    max-width: 52rem;
+    margin: 0 auto 2.4rem;
+    text-align: center;
+}
+
+.section-title {
+    margin: 10rem 0 0 0;
+    color: $theme-blue;
+    font-size: 3rem;
+    line-height: 1.15;
+    font-family: "Google Sans Bold";
+}
+
+.section-description {
+    margin: 1.4rem 0 0;
+    color: $theme-secondary;
+    font-size: 1.2rem;
+    line-height: 1.9;
+    font-family: "Google Sans Medium";
+}
+
+.stat-card,
+.trust-card {
+    border-radius: 1.75rem;
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: 0 18px 40px rgba(0, 28, 85, 0.08);
+}
+
+.stat-card {
+    padding: 1.75rem;
+    text-align: center;
+}
+
+.stat-value {
+    margin: 0;
+    color: $theme-blue;
+    font-size: 2rem;
+    font-family: "Google Sans Bold";
+}
+
+.stat-label {
+    margin: 0.75rem 0 0;
+    color: $theme-secondary;
+    line-height: 1.6;
+    font-family: "Google Sans Medium";
+}
+
+.trust-card {
+    padding: 1.75rem;
+}
+
+.trust-card h3 {
+    margin: 0;
+    color: $theme-blue;
+    font-size: 1.35rem;
+    font-family: "Google Sans Bold";
+}
+
+.trust-card p {
+    margin: 0.9rem 0 0;
+    color: $theme-secondary;
+    line-height: 1.75;
+    font-family: "Google Sans Regular";
+}
+
+@media (max-width: 1380px) {
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    .stats-grid,
+    .trust-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .home-section {
+        width: calc(100% - 2rem);
+    }
+
+    .section-title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .section-description {
+        font-size: 1rem;
+        line-height: 1.7;
+        text-align: center;
+    }
+
+    .stats-grid,
+    .trust-grid {
+        grid-template-columns: 1fr;
+    }
+}
