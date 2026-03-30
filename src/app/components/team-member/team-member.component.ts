@@ -35,13 +35,13 @@ export class TeamMemberComponent {
         {
             firstName: 'Toky',
             lastName: 'RAHERIMANANA',
-            role: 'Développeur Symfony / NodeJS / JAVA',
+            role: 'Développeur Full-Stack',
             imageSrc: 'https://media.licdn.com/dms/image/v2/D4E03AQH42LRjnxPb8A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718310767210?e=1776297600&v=beta&t=RS6We4j7yEmsUyGa-UNbLcfQeXGNPp6gRj4YjpvkoR4'
         },
         {
             firstName: 'Toky Jordy',
             lastName: 'RAKOTONIRINA',
-            role: 'Développeur Laravel / React / Angular',
+            role: 'Développeur Full-Stack',
             imageSrc: 'assets/images/Jordy.png'
         }
     ];
