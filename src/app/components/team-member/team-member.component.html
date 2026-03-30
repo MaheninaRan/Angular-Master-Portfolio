@@ -1,0 +1,19 @@
+<section class="team-section greet-main" aria-labelledby="team-section-title">
+    <div class="team-section-header" data-aos="fade-up">
+        <h1 class="skills-header">Notre equipe</h1>
+        <p class="team-section-description">
+            Une équipe aux compétences transversales, réunissant des développeurs expérimentés sur l'ensemble de la chaîne technique : frontend, backend, bases de données et mise en production.
+        </p>
+    </div>
+
+    <div class="team-grid">
+        @for (member of teamMembers; track member.firstName + member.lastName) {
+            <app-team-member-card
+                [firstName]="member.firstName"
+                [lastName]="member.lastName"
+                [role]="member.role"
+                [imageSrc]="member.imageSrc">
+            </app-team-member-card>
+        }
+    </div>
+</section>
