@@ -1,0 +1,39 @@
+<article class="career-card" data-aos="fade-up">
+    <div class="career-profile">
+        <div class="career-photo-shell">
+            <img [src]="member().imageSrc" [alt]="member().fullName">
+        </div>
+
+        <div class="career-profile-content">
+            <p class="career-role">{{ member().role }}</p>
+            <h2 class="career-name">{{ member().fullName }}</h2>
+            <p class="career-summary">{{ member().summary }}</p>
+        </div>
+    </div>
+
+    <div class="career-timeline">
+        @for (step of member().steps; track step.company + step.period; let i = $index) {
+            <section class="timeline-item" [style.animationDelay]="(i * 120) + 'ms'">
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+                    <div class="timeline-meta">
+                        <span>{{ step.period }}</span>
+                        @if (step.location) {
+                            <span>{{ step.location }}</span>
+                        }
+                    </div>
+
+                    <h3>{{ step.title }}</h3>
+                    <p class="timeline-company">{{ step.company }}</p>
+
+                    <ul>
+                        @for (highlight of step.highlights; track highlight) {
+                            <li>{{ highlight }}</li>
+                        }
+                    </ul>
+                </div>
+            </section>
+        }
+    </div>
+</article>

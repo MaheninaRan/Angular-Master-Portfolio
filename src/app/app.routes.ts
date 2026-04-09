@@ -6,6 +6,7 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { ExperienceComponent } from './pages/experience/experience.component';
 import { EducationComponent } from './pages/education/education.component';
 import { AchievementsComponent } from './pages/achievements/achievements.component';
+import { CareerComponent } from './pages/career/career.component';
 
 export const routes: Routes = [
     {
@@ -18,6 +19,11 @@ export const routes: Routes = [
     //     component: ProjectsComponent,
     //     title: `Projets | Dev-Professionnel`,
     // },
+    {
+        path: AppRoutes.CAREER,
+        component: CareerComponent,
+        title: `Parcours | Dev-Professionnel`,
+    },
     {
         path: AppRoutes.EDUCATION,
         component: EducationComponent,

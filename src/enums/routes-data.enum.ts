@@ -4,6 +4,7 @@ export enum AppRoutes {
     HOME = "",
     ERROR = "error",
     EXPERIENCE = "experience",
+    CAREER = "parcours",
     EDUCATION = "education",
     PROJECTS = "projects",
     ACHIEVEMENTS = "achievements",
@@ -17,6 +18,11 @@ export const RoutesData: RouteData[] = [
     {
         routeLinkText: "Home",
         routeURLName: AppRoutes.HOME,
+        isVisible: true,
+    },
+    {
+        routeLinkText: "Parcours",
+        routeURLName: AppRoutes.CAREER,
         isVisible: true,
     },
     {

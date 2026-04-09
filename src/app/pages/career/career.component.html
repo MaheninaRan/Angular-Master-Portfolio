@@ -1,0 +1,21 @@
+<div class="career-page">
+    <section class="career-hero">
+        <div class="career-hero-panel">
+            <div class="career-hero-copy" data-aos="fade-right">
+                <h1 class="career-title">Les expériences qui ont construit notre equipe</h1>
+            </div>
+
+            <div class="career-hero-visual" data-aos="fade-left">
+                <div class="career-hero-image-shell">
+                    <img [src]="assetPaths.EXPERIENCE_COVER" alt="Parcours de l equipe">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="career-list">
+        @for (member of members; track member.fullName) {
+            <app-career-member-card [member]="member"></app-career-member-card>
+        }
+    </section>
+</div>
