@@ -1,17 +1,20 @@
 @import '../../../css/variables.scss';
 
 .logo_wrapper {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    z-index: 999;
+    height: 100dvh;
     width: 100vw;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .screen {
     height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,4 +66,10 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+    .logo_wrapper {
+        height: 100svh;
+    }
 }
