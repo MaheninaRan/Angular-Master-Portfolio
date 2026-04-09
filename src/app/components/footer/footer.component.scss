@@ -22,6 +22,10 @@
     align-items: start;
 }
 
+.footer-main > * {
+    min-width: 0;
+}
+
 .footer-eyebrow {
     margin: 0 0 0.75rem;
     color: rgba(255, 255, 255, 0.7);
@@ -94,6 +98,8 @@
     text-decoration: none;
     font-family: "Google Sans Medium";
     transition: color 200ms ease;
+    overflow-wrap: anywhere;
+    word-break: break-word;
 
     &:hover {
         color: #ffffff;
@@ -144,22 +150,37 @@
 
 @media (max-width: 768px) {
     .footer {
-        padding: 0 1rem 1.5rem;
+        padding: 0 0.85rem 1.25rem;
     }
 
     .footer-shell {
         width: 100%;
-        padding: 2rem 1.25rem 1.1rem;
+        padding: 1.6rem 1rem 1rem;
         border-radius: 1.5rem;
     }
 
     .footer-main {
         grid-template-columns: 1fr;
-        gap: 1.8rem;
+        gap: 1.5rem;
     }
 
     .footer-brand-name {
         font-size: 1.7rem;
+    }
+
+    .footer-brand-text,
+    .footer-social-text,
+    .footer-contact-list p,
+    .footer-bottom p,
+    .footer-nav a,
+    .footer-contact-list a {
+        font-size: 0.98rem;
+        line-height: 1.65;
+    }
+
+    .footer-cta {
+        width: 100%;
+        min-height: 3.3rem;
     }
 
     .footer-bottom {
@@ -168,7 +189,21 @@
 }
 
 @media (max-width: 480px) {
+    .footer-brand-name {
+        font-size: 1.5rem;
+    }
+
+    .footer-title {
+        font-size: 1rem;
+    }
+
     .footer-social ::ng-deep .social-media-div {
         justify-content: flex-start;
+    }
+
+    .footer-social ::ng-deep .icon-button img {
+        height: 3rem;
+        width: 3rem;
+        padding: 0.72rem;
     }
 }
